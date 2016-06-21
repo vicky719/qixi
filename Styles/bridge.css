@@ -1,0 +1,279 @@
+﻿*
+{
+   padding:0;
+   margin:0 auto;
+ }
+.pageC
+{
+ position:absolute;
+ width:100%;
+ height:100%;
+ background-image:url(/images/QixiC.png);
+ background-size:100% 100%;
+ overflow:hidden;
+ }
+ .person
+        {
+            width: 4%;
+            height: 18%;
+            position: absolute;
+            background-image:url(/images/person/boy-flower.png);
+            background-repeat:no-repeat;
+            top:60%;
+            left:0%;
+            background-position:35% 1%;
+            background-size: 500% 100%;
+            -webkit-animation-name:person_slow; 
+            -webkit-animation-duration:950ms; 
+            -webkit-animation-timing-function:steps(1,start);
+            -webkit-animation-iteration-count: infinite;   
+        }
+.person1
+        {
+            width: 4%;
+            height: 18%;
+            position: absolute;
+            top:0;
+            left:0;
+            background-image:url(/images/person/boy-rotate.png);
+            background-repeat:no-repeat;
+            background-position:35% -0.6%;
+            background-size: 120% 600%;
+         -webkit-animation-name:person1_slow; 
+         -webkit-animation-duration:950ms; 
+         -webkit-animation-timing-function:steps(1,start);
+         -webkit-animation-iteration-count:1;    
+        }
+ .person2,.girl
+        {
+            width: 4%;
+            height: 18%;
+            position: absolute;
+            background-image:url(/images/person/girl.png);
+            background-repeat:no-repeat;
+            top:50%;
+            left:50%;
+            background-size: 870% 100%;
+            background-position:65% 3px;
+        }
+       .girl
+       {
+         -webkit-animation-name:person2_slow; 
+         -webkit-animation-duration:950ms; 
+         -webkit-animation-timing-function:steps(1,start);
+         -webkit-animation-iteration-count:1;   
+        } 
+  @-webkit-keyframes person_slow
+ {
+   0%{ background-position:35% 1%;}
+   25%{background-position:97% 1%;}
+   50%{background-position:3% 1%;}
+   100%{background-position:67% 1%;}
+ }
+   @-webkit-keyframes person2_slow
+ {
+   0%{ background-position:19% 3px;}
+   20%{background-position:98% 3px;}
+   40%{background-position:2% 3px;}
+   60%{background-position:33% 3px;}
+   80%{background-position:48% 3px;}
+   100%{background-position:65% 3px;}
+ } 
+   @-webkit-keyframes person1_slow
+ {
+   0%{ background-position:30% -0.6%;}
+   20%{background-position:75% 39.5%;}
+   40%{background-position:75% 19.5%;}
+   60%{background-position:75% 59.5%;}
+   80%{background-position:75% 79.5%}
+   100%{background-position:75% 99.7%}
+ }
+ .person_state
+ {
+ -webkit-animation-play-state:paused;
+}
+
+.person_count
+{
+    background-image:url(/images/person/boy-rotate.png);
+    background-repeat:no-repeat;
+    background-position:35% -0.6%;
+    background-size: 120% 600%;
+    -webkit-animation-iteration-count:1;
+}
+.stars1
+{
+    width:25%;
+    height:35%;
+    float:left;
+    position:absolute; 
+    top:5%;
+    left:5%; 
+    }
+.stars2
+{
+    width:25%;
+    height:25%;
+    float:right;
+    position:absolute; 
+    top:5%;
+    right:5%;
+    border:1px solid blue;
+    float:right;
+ }   
+.stars
+{
+    width:50%;
+    height:50%;
+    position:absolute;
+    top:1%;
+    left:1%;
+ }
+.pageC ul,li
+{
+  list-style:none;
+  margin:0;
+  padding:0;
+  width:2.1%;
+  height:4.5%;
+  position:absolute;
+ }
+ .pageC li
+{
+  width:100%;
+  height:100%;
+  background-image:url(/images/stars.png);
+  -webkit-animation-duration:5000ms; 
+  -webkit-animation-timing-function:linear;
+  -webkit-animation-iteration-count:infinite; 
+}
+.pageC li:nth-child(1)
+{
+   position:absolute;
+   top:50px;
+   left:100px;
+
+ }
+ .pageC li:nth-child(2)
+ {
+   position:absolute;
+   top:100px;
+   left:400px;        
+   }
+ .pageC li:nth-child(3)
+ {
+   position:absolute;
+   top:100px;
+   left:250px;        
+   }
+ .pageC li:nth-child(4)
+ {
+   position:absolute;
+   top:50px;
+   left:850px;        
+   }
+ .pageC li:nth-child(5)
+ {
+   position:absolute;
+   top:230px;
+   left:920px;        
+ }
+  .pageC li:nth-child(6)
+ {
+   position:absolute;
+   top:160px;
+   left:1100px;        
+   }
+ @-webkit-keyframes str
+ {
+     0% 
+     {
+     opacity:0;
+     transform:scale(1,1);
+     }
+     50%
+     {
+      opacity:1; 
+      transform:scale(1.2,1.2)}
+     100%
+     {
+       opacity:0;
+       transform:scale(1,1)}
+ }
+ .water1
+ { 
+     width:9%;
+     height:2%; 
+     background:url(/images/water1.png) no-repeat 2px 2px;
+     background-size:90% 70%;
+     position:absolute;
+     top:79%;
+     left:40%;
+     -webkit-animation:w1 6000ms linear  infinite;
+     }
+ .water2 
+ {
+     width:13%;
+     height:2%; 
+     background:url(/images/water2.png) no-repeat 2px 2px;
+     background-size:98% 75%;
+     position:absolute;
+     top:81%;
+     left:48%;
+      -webkit-animation:w2 6000ms linear 1000ms infinite;
+     }
+ .water3
+ {
+      width:12%;
+     height:2%; 
+     background:url(/images/water3.png) no-repeat 2px 2px;
+     background-size:90% 70%;
+     position:absolute;
+     top:91%;
+     left:40%;
+      -webkit-animation:w3 6000ms linear infinite;
+     }
+ .water4
+ {
+     width:15%;
+     height:2%;
+     background:url(/images/water4.png) no-repeat 2px 2px;
+     background-size:90% 75%;
+     position:absolute;
+     top:94%;
+     left:50%;
+     -webkit-animation:w4 6000ms linear 2000ms infinite;
+ }
+ 
+     @-webkit-keyframes w1
+     {
+         0%{left:42%} 
+         10%{left:42%}       
+         50%{left:45%}
+         60%{left:45%}
+         100%{left:42%}
+      }
+     @-webkit-keyframes w2
+     {
+         0%{left:48%}
+         10%{left:48%}      
+         50%{left:46%}
+          60%{left:46%}
+         100%{left:48%}
+      }
+        @-webkit-keyframes w3
+     {
+         0%{left:40%}  
+         10%{left:40%}      
+         50%{left:43%}
+         60%{left:43%}
+         100%{left:40%}
+      }
+     @-webkit-keyframes w4
+     {
+         0%{left:50%}  
+         10%{left:50%}  
+         50%{left:47%}
+         60%{left:47%}
+         100%{left:50%}
+      }
